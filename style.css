@@ -1,1 +1,32 @@
-body{}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro-section {
+    background: url('./img/Header\ bg.svg');
+    padding: 150px 0;
+}
+
+.healine-content-container {
+    width: 600px;
+    max-width: 90%;
+    margin: auto 10%;
+}
+
+.headline-socials {
+    width: 300px;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -30px;
+}
